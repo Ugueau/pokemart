@@ -1,0 +1,73 @@
+* {
+    --main_color: #073c8a;
+    --secondary_color: #1c1f23;
+    --tertiary_color: #FED766;
+    --grey_color : #f9f9f9;
+}
+
+
+
+.img_404 {
+    width: 400px;
+}
+
+.detail_card_img{
+    width: 310px;
+}
+
+.img_in_cart{
+    width: 50px;
+}
+
+
+.bg_main_color {
+    background-color: var(--main_color);
+}
+
+.bg_grey_color{
+    background-color: var(--grey_color);
+}
+
+.bg_secondary_color{
+    background-color: var(--secondary_color);
+}
+
+
+
+.txt_white{
+    color: #ffffff;
+}
+
+.txt_white:hover{
+    color: var(--tertiary_color);
+}
+
+.txt_main_color{
+    color: var(--main_color);
+}
+
+
+
+.border_radius_small{
+    border-radius: 10px;
+}
+
+
+
+.btn-primary{
+    background-color: var(--main_color);
+    border-color: var(--main_color);
+}
+
+.btn-primary-text:hover{
+    text-decoration: underline;
+}
+
+.btn-warning{
+    background-color: var(--tertiary_color);
+    border-color: var(--tertiary_color);
+}
+
+
+
+
